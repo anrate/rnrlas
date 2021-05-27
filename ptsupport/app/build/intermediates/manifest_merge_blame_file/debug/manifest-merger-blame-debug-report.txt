@@ -1,0 +1,72 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.ptsupport"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\gilst\GookMin\ptsupport\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\gilst\GookMin\ptsupport\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+11-->C:\Users\gilst\GookMin\ptsupport\app\src\main\AndroidManifest.xml:5:5-79
+11-->C:\Users\gilst\GookMin\ptsupport\app\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.WAKE_LOCK" />
+12-->C:\Users\gilst\GookMin\ptsupport\app\src\main\AndroidManifest.xml:6:5-68
+12-->C:\Users\gilst\GookMin\ptsupport\app\src\main\AndroidManifest.xml:6:22-65
+13
+14    <application
+14-->C:\Users\gilst\GookMin\ptsupport\app\src\main\AndroidManifest.xml:8:5-24:19
+15        android:allowBackup="true"
+15-->C:\Users\gilst\GookMin\ptsupport\app\src\main\AndroidManifest.xml:9:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.3.1] C:\Users\gilst\.gradle\caches\transforms-2\files-2.1\f362f53b80f51916a43478ddab81269d\core-1.3.1\AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:extractNativeLibs="false"
+19        android:icon="@mipmap/app_ic_background"
+19-->C:\Users\gilst\GookMin\ptsupport\app\src\main\AndroidManifest.xml:10:9-49
+20        android:label="GookMin"
+20-->C:\Users\gilst\GookMin\ptsupport\app\src\main\AndroidManifest.xml:11:9-32
+21        android:roundIcon="@mipmap/app_ic_background_round"
+21-->C:\Users\gilst\GookMin\ptsupport\app\src\main\AndroidManifest.xml:12:9-60
+22        android:supportsRtl="true"
+22-->C:\Users\gilst\GookMin\ptsupport\app\src\main\AndroidManifest.xml:13:9-35
+23        android:testOnly="true"
+24        android:theme="@style/Theme.Ptsupport" >
+24-->C:\Users\gilst\GookMin\ptsupport\app\src\main\AndroidManifest.xml:14:9-47
+25        <activity android:name="com.example.ptsupport.ResultActivity" />
+25-->C:\Users\gilst\GookMin\ptsupport\app\src\main\AndroidManifest.xml:15:9-61
+25-->C:\Users\gilst\GookMin\ptsupport\app\src\main\AndroidManifest.xml:15:19-49
+26        <activity
+26-->C:\Users\gilst\GookMin\ptsupport\app\src\main\AndroidManifest.xml:16:9-23:20
+27            android:name="com.example.ptsupport.MainActivity"
+27-->C:\Users\gilst\GookMin\ptsupport\app\src\main\AndroidManifest.xml:16:19-47
+28            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+28-->C:\Users\gilst\GookMin\ptsupport\app\src\main\AndroidManifest.xml:17:13-71
+29            <intent-filter>
+29-->C:\Users\gilst\GookMin\ptsupport\app\src\main\AndroidManifest.xml:18:13-22:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->C:\Users\gilst\GookMin\ptsupport\app\src\main\AndroidManifest.xml:19:17-69
+30-->C:\Users\gilst\GookMin\ptsupport\app\src\main\AndroidManifest.xml:19:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->C:\Users\gilst\GookMin\ptsupport\app\src\main\AndroidManifest.xml:21:17-77
+32-->C:\Users\gilst\GookMin\ptsupport\app\src\main\AndroidManifest.xml:21:27-74
+33            </intent-filter>
+34        </activity>
+35
+36        <provider
+36-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\gilst\.gradle\caches\transforms-2\files-2.1\c31b007b0bb9c191081060e80386a097\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+37            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+37-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\gilst\.gradle\caches\transforms-2\files-2.1\c31b007b0bb9c191081060e80386a097\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+38            android:authorities="com.example.ptsupport.lifecycle-process"
+38-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\gilst\.gradle\caches\transforms-2\files-2.1\c31b007b0bb9c191081060e80386a097\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+39            android:exported="false"
+39-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\gilst\.gradle\caches\transforms-2\files-2.1\c31b007b0bb9c191081060e80386a097\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+40            android:multiprocess="true" />
+40-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\gilst\.gradle\caches\transforms-2\files-2.1\c31b007b0bb9c191081060e80386a097\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+41    </application>
+42
+43</manifest>
